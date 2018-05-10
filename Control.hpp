@@ -1,0 +1,24 @@
+//
+//  Control.hpp
+//  HashAssignment
+//
+//  Created by Kaulitz Guimarães on 22/03/18.
+//  Copyright © 2018 Kaulitz Guimarães. All rights reserved.
+//
+
+#ifndef Control_hpp
+#define Control_hpp
+
+#include <iostream>
+#include "Client.h"
+#include "ClientVip.hpp"
+#include "Menu.h"
+#include "hash.hpp"
+class Control{
+private:
+    Hash *h = new Hash(19);
+    void initMenu();
+public:
+    Control();
+};
+#endif /* Control_hpp */
